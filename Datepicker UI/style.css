@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1f1f1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.input_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input_date {
+    width: 100%;
+    padding: .5rem;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+.button_date {
+    padding: .3rem .8rem;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+}
+.calendar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.month_year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border-bottom: 1px solid #ccc;
+}
+.solidArrow {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: .2rem;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.daysOfMonth {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+}
+
+.daysAWeek {
+    padding: .2rem;
+    border: 1px solid #ccc;    
+}
