@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #f1f1f1;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    display: none;
+}
+
+.cookie-box {
+    position: fixed;
+    width: 400px;
+    background-color: #edf2f4;
+    color: #2b2d42;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#accept-btn {
+    background-color: #8d99ae;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#accept-btn:hover {
+    background-color: #2b2d42;
+}
+
+.main {
+    width: 100%;
+    max-width: 600px;
+    padding: 1.25rem;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15% auto;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.tab-item {
+    list-style: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+}
+
+.tab-item a {
+    text-decoration: none;
+    color: #aaa;
+}
+
+.tab-item.active {
+    border-bottom: 2px solid #000;
+    color: #000;
+}
+
+.tab-item.active a {
+    color: #000;
+}
+
+.text {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.textarea-content {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    display: none;
+}
+
+.textarea-content.active {
+    display: block;
+}
+
+.counter {
+    position: absolute;
+    right: 1.3rem;
+    bottom: .8rem;
+    color: #aaa;
+}
+
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+.textarea {
+    font-size: 1rem;
+    font-weight: 600;
+    display: block;
+}
+
+.textarea.full-textarea {
+    border: 2px solid red;
+    color: red;
+}
+
+.counter.full-count {
+    color: red;
+}
+
+
+
+
