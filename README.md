@@ -17,3 +17,4 @@ Projects from roadmap.sh
 - Flash Cards (sin framework): https://roadmap.sh/projects/flash-cards
 - Flash Cards (React-Vite-Tailwind-Ts): https://roadmap.sh/projects/flash-cards
 - Custom Dropdown: https://roadmap.sh/projects/custom-dropdown
+- Task Tracker: https://roadmap.sh/projects/task-tracker-js
